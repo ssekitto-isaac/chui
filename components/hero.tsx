@@ -8,13 +8,13 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/hero-lodge.jpg"
+          src="/hero-banner.jpg"
           alt="Chui Safari Camp"
           fill
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-black/30" />
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
