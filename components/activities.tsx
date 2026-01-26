@@ -1,12 +1,9 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import { activitiesData } from '@/lib/activities-data'
 
 export default function Activities() {
-  const activities = [
-    { name: 'Game Drives', image: '/activity-game-drive.jpg' },
-    { name: 'Nile River Cruise', image: '/activity-boat-cruise.jpg' },
-    { name: 'Guided Nature Walk', image: '/activity-guided-walk.jpg' },
-    { name: 'Bird Watching', image: '/activity-bird-watch.jpg' },
-  ]
+  const featuredActivities = activitiesData.slice(0, 4)
 
   return (
     <section id="activities" className="py-20 bg-background">
@@ -19,9 +16,10 @@ export default function Activities() {
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {activities.map((activity) => (
-            <div
-              key={activity.name}
+          {featuredActivities.map((activity) => (
+            <Link
+              key={activity.id}
+              href="/activities"
               className="group relative rounded-lg overflow-hidden hover:shadow-md transition cursor-pointer border border-border h-64"
             >
               <Image
@@ -33,18 +31,18 @@ export default function Activities() {
               <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition flex items-end">
                 <div className="p-4 w-full">
                   <h3 className="text-lg font-semibold text-white">
-                    {activity.name}
+                    {activity.shortName}
                   </h3>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <button className="px-8 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition font-medium">
+          <Link href="/activities" className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition font-medium">
             View All Activities
-          </button>
+          </Link>
         </div>
       </div>
     </section>

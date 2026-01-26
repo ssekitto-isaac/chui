@@ -1,8 +1,7 @@
-'use client'
-
 import Header from '@/components/header'
 import Hero from '@/components/hero'
-import Features from '@/components/features'
+import EscapeSection from '@/components/escape-section'
+import FeatureCarousel from '@/components/feature-carousel'
 import Accommodations from '@/components/accommodations'
 import Activities from '@/components/activities'
 import Spa from '@/components/spa'
@@ -15,7 +14,8 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Header />
       <Hero />
-      <Features />
+      <EscapeSection />
+      <FeatureCarousel />
       <Accommodations />
       <Activities />
       <Gallery />

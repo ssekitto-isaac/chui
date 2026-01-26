@@ -27,47 +27,35 @@ export default function Accommodations() {
   return (
     <section id="accommodations" className="py-20 bg-primary/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-5xl md:text-6xl font-playfair font-bold text-center mb-4 text-foreground">
+        <h2 className="text-5xl md:text-6xl font-playfair font-bold text-center mb-12 text-foreground">
           Accommodations
         </h2>
-        <p className="text-center text-foreground/70 mb-12 max-w-2xl mx-auto">
-          Choose from our selection of luxurious accommodations, each designed for your ultimate comfort.
-        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {accommodations.map((accommodation) => (
             <div
               key={accommodation.name}
-              className="bg-background rounded-lg border border-border overflow-hidden hover:shadow-lg transition"
+              className="group relative h-96 w-full overflow-hidden rounded-lg cursor-pointer"
             >
-              <div className="relative h-64 w-full">
-                <Image
-                  src={accommodation.image || "/placeholder.svg"}
-                  alt={accommodation.name}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-playfair font-bold mb-3 text-foreground">
-                  {accommodation.name}
-                </h3>
-                <p className="text-foreground/70 mb-4 leading-relaxed">
-                  {accommodation.description}
-                </p>
-                <div className="mb-6">
-                  <h4 className="font-semibold text-sm text-foreground mb-2">Features:</h4>
-                  <ul className="space-y-1">
-                    {accommodation.features.map((feature) => (
-                      <li key={feature} className="text-sm text-foreground/70">
-                        • {feature}
-                      </li>
-                    ))}
-                  </ul>
+              <Image
+                src={accommodation.image || "/placeholder.svg"}
+                alt={accommodation.name}
+                fill
+                className="object-cover group-hover:scale-110 transition duration-300"
+              />
+              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition duration-300" />
+              
+              {/* Overlay content */}
+              <div className="absolute inset-0 flex flex-col justify-between p-8">
+                <div />
+                <div>
+                  <h3 className="text-3xl md:text-4xl font-playfair font-bold text-white mb-4 text-balance">
+                    {accommodation.name}
+                  </h3>
+                  <button className="px-6 py-2 bg-white text-foreground font-bold rounded-full hover:bg-primary hover:text-white transition inline-block">
+                    EXPLORE MORE
+                  </button>
                 </div>
-                <button className="w-full px-4 py-2 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition font-medium">
-                  Explore more
-                </button>
               </div>
             </div>
           ))}
