@@ -146,13 +146,13 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-border pt-8 text-center text-sm text-foreground/60">
-          <p>© 2024 Chui Safari Camp. All rights reserved.</p>
-          <p className="mt-2">
+          <p>© 2026 Chui Safari Camp. All rights reserved.</p>
+          {/* <p className="mt-2">
             Website designed by{' '}
             <a href="#" className="text-primary hover:underline">
               v0
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>
