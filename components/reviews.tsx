@@ -20,7 +20,7 @@ export default function Reviews() {
     {
       name: 'Steve G',
       rating: 5,
-      text: 'Best accommodations at Murchison Falls We were very glad to have chosen Nile Safari Lodge for our trip. It is most definitely one of the...',
+      text: 'Best accommodations at Murchison Falls We were very glad to have chosen Chui Safari Camp for our trip. It is most definitely one of the...',
     },
     {
       name: 'Mélanie Ba',

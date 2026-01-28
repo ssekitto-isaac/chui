@@ -7,16 +7,19 @@ export default function Spa() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-5xl md:text-6xl font-playfair font-bold mb-6 text-foreground">
-              Mtoni Massage
+              Buah Brunch
             </h2>
             <p className="text-lg text-foreground/70 mb-6 leading-relaxed">
-              Indulge in pure relaxation and tranquility with our Mtoni Massage experience. Derived from the Swahili word for 'river,' Mtoni Massage invites you to immerse yourself in the serene beauty of the Nile from the comfort of your banda.
+              Guests enjoy a luxurious brunch in a stunning natural setting, 
+              surrounded by breathtaking views and the sounds of nature. 
+              The brunch features a curated selection of fresh, locally sourced dishes, offering both comfort and elegance. 
             </p>
             <p className="text-foreground/70 mb-6 leading-relaxed">
-              To tailor your experience to perfection, we kindly request that you notify our team at least two hours before your desired appointment time.
+              It's not just a meal, it's a celebration of relaxation, connection, and the unique spirit of Chui Safari Camp, 
+              making every moment memorable and every bite a delight.
             </p>
             <button className="px-8 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition font-medium">
-              Download our spa profile
+              Book your Spot Now
             </button>
           </div>
 

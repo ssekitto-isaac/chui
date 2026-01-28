@@ -5,6 +5,7 @@ export const activitiesData = [
     shortName: 'Accommodation',
     image: '/activity-accommodation.jpg',
     description: '"Home is not a place... it\'s a feeling," and our goal is to make you feel it. Our commitment: to nourish your body with delicious meals and your spirit with a welcoming space, making every moment feel like coming home. Where comfortable beds meet comforting food, creating memories that taste and feel like love.',
+    longDescription: 'Experience the ultimate comfort at Chui Safari Camp, where every detail is designed to make you feel at home in the heart of the wild. Our accommodations blend rustic charm with modern amenities, offering plush beds, serene views, and a tranquil atmosphere. Wake up to the sounds of nature, enjoy hearty breakfasts, and savor gourmet meals crafted from fresh, local ingredients. Whether you are relaxing after a day of adventure or sharing stories by the fire, our camp is a sanctuary of warmth and hospitality. Let us nourish your body and soul, making every stay a cherished memory.',
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const activitiesData = [
     shortName: 'Game Drives',
     image: '/activity-game-drive.jpg',
     description: 'In Uganda\'s wild heart, every sunrise paints a masterpiece, every creature whisper ancient tales, and the soul finds its rhythm in the untamed. As the golden savanna stretches before us, we\'re not just driving; we\'re journeying through living emeralds and encountering giants, a profound connection to life\'s raw, beautiful pulse. Beyond the "Big Five," Uganda offers a "Big Heart" a safari that awakens the senses and deepens the spirit in Africa\'s authentic embrace.',
+    longDescription: 'Embark on a thrilling game drive through Uganda\'s breathtaking landscapes, where every turn reveals new wonders. Witness herds of elephants, graceful giraffes, and elusive big cats in their natural habitat. Our expert guides share fascinating insights into animal behavior and the delicate balance of the ecosystem. Feel the excitement as you track wildlife across golden savannas and lush woodlands, capturing unforgettable moments with your camera. This is more than a safari—it\'s a journey into the wild heart of Africa, where adventure and awe await at every sunrise.',
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const activitiesData = [
     shortName: 'Murchison Brunch',
     image: '/activity-brunch.jpg',
     description: 'Brunch at the top of Murchison Falls isn\'t just a meal; we taste the wild, feel the earth tremble, and witness the Nile\'s untamed glory. Truly unforgettable. It\'s a sublime encounter with raw nature\'s power, where gourmet flavors meet the deafening roar and misty spray of the world\'s mightiest waterfall, inspiring awe, gratitude, and a feeling of being alive amidst Africa\'s untamed beauty, a true testament to nature\'s grandeur and the reward of reaching heights.',
+    longDescription: 'Savor a once-in-a-lifetime brunch perched atop the mighty Murchison Falls. As the Nile thunders below, enjoy a gourmet spread with panoramic views of cascading water and lush wilderness. The mist on your face, the roar in your ears, and the flavors on your plate create a multisensory feast. This unique dining experience is perfect for celebrating milestones or simply soaking in the grandeur of nature. Let the power and beauty of the falls inspire awe and gratitude as you dine in one of Africa\'s most spectacular settings.',
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const activitiesData = [
     shortName: 'Falls Trek',
     image: '/activity-trek.jpg',
     description: 'Where the Nile\'s power meets your perseverance: Hike Murchison, Beyond the trail, the falls await: Step into the mist, feel the roar, and find your awe. Where ancient rock and wild beauty converge, breathe the wild air and witness the Nile\'s mighty force – Murchison\'s magic is yours to discover. Trekking Murchison Falls is a journey into raw power and vibrant life, where each step on ancient rocks leads you closer to nature\'s thunderous heart, rewarding your effort with breathtaking views, refreshing mist, diverse wildlife, and a profound connection to the untamed spirit of the Nile.',
+    longDescription: 'Challenge yourself with a trek to the top of Murchison Falls, where adventure and natural wonder converge. Traverse ancient rocks, lush forests, and scenic trails as you ascend toward the thunderous heart of the Nile. Along the way, encounter diverse wildlife, vibrant flora, and breathtaking vistas. The final reward is a close-up view of the falls, where the river explodes through a narrow gorge in a spectacular display of power. This trek is a journey of discovery, resilience, and awe, perfect for nature lovers and thrill-seekers alike.',
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const activitiesData = [
     shortName: 'Nile Fishing',
     image: '/activity-fishing.jpg',
     description: 'Fishing the Nile is more than a sport; it is an adventure into the heart of Africa\'s wilderness, an opportunity to test your spirit against one of the world\'s most formidable rivers, and a chance to connect with a powerful, ancient force of nature. Ultimately, it is about "reeling in memories, one cast at a time," and experiencing a challenging and captivating stretch of water that is never the same on any two days. The sheer scale of the landscape and the potential for a massive catch (Nile perch can exceed 100kg) fosters a deep appreciation for the natural world.',
+    longDescription: 'Cast your line into the legendary Nile and experience fishing like never before. Whether you are a seasoned angler or a curious beginner, the river offers thrilling opportunities to catch Nile perch, catfish, and other remarkable species. Guided by local experts, you\'ll learn the secrets of the river and the best spots for a memorable catch. The adventure is about more than the fish—it\'s about connecting with nature, embracing the challenge, and creating stories to share for a lifetime. Every cast is a chance to reel in something extraordinary.',
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export const activitiesData = [
     shortName: 'Bird Watching',
     image: '/activity-bird-watch.jpg',
     description: 'Uganda, the "Pearl of Africa," isn\'t just a destination, listen to it\'s a symphony of wings where over 1,000 species belong, each flash of color paint the skies, each call, from the elusive Shoebill in papyrus swamps to Albertine Rift endemics in misty forests, offering birdwatchers a transformative journey into biodiversity, patience, and unparalleled wonder, a truly spiritual connection with nature\'s vibrant artistry that whispers tales of conservation and the breathtaking beauty of a truly unique ecosystem.',
+    longDescription: 'Step into a birder\'s paradise, where Uganda\'s skies come alive with over 1,000 species of birds. From the rare Shoebill to dazzling sunbirds and majestic eagles, every outing is a treasure hunt for color and song. Explore diverse habitats—swamps, forests, and savannas—guided by passionate experts who help you spot and identify even the most elusive species. Bird watching here is a meditative experience, fostering patience, wonder, and a deep appreciation for conservation. Capture the beauty of flight and the magic of biodiversity in every moment.',
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ export const activitiesData = [
     shortName: 'Nile River Cruise',
     image: '/activity-boat-cruise.jpg',
     description: 'Let the timeless Nile carry your spirit as you discover Uganda\'s wild beauty, from serene shores to thundering falls—a journey for the soul! Chase waterfalls, spot hippos, and feel the river\'s energy—this isn\'t just a cruise, it\'s Uganda\'s ultimate aquatic adventure! Embark on Uganda\'s Nile cruise for soul-stirring views, vibrant wildlife, and exhilarating rapids, where serene sunset sails meet adrenaline-pumping spins, offering a perfect blend of adventure and tranquility, a true immersion into Africa\'s heart.',
+    longDescription: 'Set sail on the legendary Nile for a boat cruise that blends relaxation and excitement. Glide past lush riverbanks, spot hippos and crocodiles basking in the sun, and marvel at flocks of birds overhead. As you approach the base of Murchison Falls, feel the spray and hear the thunder of the water. Sunset cruises offer magical golden light and tranquil moments, while daytime adventures bring the thrill of rapids and wildlife encounters. This cruise is a celebration of Uganda\'s natural beauty and a highlight of any safari experience.',
   },
   {
     id: 8,
@@ -54,5 +61,6 @@ export const activitiesData = [
     shortName: 'Cultural Dances',
     image: '/activity-cultural.jpg',
     description: 'Experiencing these dances firsthand is not merely entertainment; it is an emotional journey into the heart and soul of Uganda, leaving you energized and connected to its rich cultural heartbeat. In Uganda, traditional dances are a vibrant celebration of life, culture, and community that pulses with contagious energy and tells the stories of a diverse heritage. Each rhythmic movement and beat of the drum connects generations, embodying the spirit, pride, and resilience of its people.',
+    longDescription: 'Immerse yourself in Uganda\'s vibrant culture through traditional music and dance. Each performance is a living story, told through rhythmic movement, colorful costumes, and the beat of the drum. Join in the celebration, learn the steps, and feel the energy that unites communities and honors heritage. These dances are more than entertainment—they are a bridge to the past, a celebration of identity, and a joyful expression of life. Let the music move you and discover the heart of Uganda in every beat.',
   },
 ]

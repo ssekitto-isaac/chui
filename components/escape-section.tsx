@@ -35,7 +35,7 @@ export default function EscapeSection() {
               />
             </div>
             <p className="text-lg text-foreground/80 leading-relaxed">
-              Nile Safari Lodge offers a magical escape in the most luxurious,
+              Chui Safari Camp offers a magical escape in the most luxurious,
               tranquil and eco-friendly setting in Uganda. Explore the
               breathtaking views of the{" "}
               <span className="text-[#e09b3d] underline">River Nile</span> from

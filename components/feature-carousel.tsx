@@ -9,8 +9,8 @@ export default function FeatureCarousel() {
 
   const features = [
     {
-      title: 'Exclusive',
-      description: 'Indulge in luxury accommodations, personalized service, and unparalleled privacy as you immerse yourself in the awe-inspiring surroundings.',
+      title: 'Buah Branch',
+      description: '"Buah Brunch" at Chui Safari Camp is a signature experience that blends gourmet dining with the beauty of the wild.',
       image: '/dining-experience.jpg',
     },
     {
@@ -19,8 +19,8 @@ export default function FeatureCarousel() {
       image: '/activity-game-drive.jpg',
     },
     {
-      title: 'Serenity',
-      description: 'Experience pure relaxation and tranquility with our world-class spa services and serene natural surroundings.',
+      title: 'A Celebration of Taste',
+      description: 'The brunch features a curated selection of fresh, locally sourced dishes, offering both comfort and elegance.',
       image: '/spa-treatment.jpg',
     },
   ]

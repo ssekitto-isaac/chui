@@ -12,18 +12,18 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-transparent z-50 transition-all duration-300">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <div className="relative w-12 h-12 md:w-14 md:h-14">
+          <div className="relative w-30 h-30 md:w-36 md:h-36">
             <Image
-              src="/chui-safari-logo.jpg"
+              src="/chui-safari-logo.png"
               alt="Chui Safari Camp"
               fill
               className="object-contain drop-shadow-lg"
               priority
             />
           </div>
-          <span className="text-2xl md:text-3xl font-playfair font-bold text-white drop-shadow-lg hidden sm:block">
+          {/* <span className="text-2xl md:text-3xl font-playfair font-bold text-white drop-shadow-lg hidden sm:block">
             Chui Safari Camp
-          </span>
+          </span> */}
         </Link>
 
         {/* Mobile menu button */}
@@ -40,7 +40,7 @@ export default function Header() {
             href="#accommodations"
             className="text-white hover:text-primary transition text-base font-medium drop-shadow-lg"
           >
-            Bandas
+            Accomodations
           </Link>
           <Link
             href="#activities"
@@ -52,7 +52,7 @@ export default function Header() {
             href="#spa"
             className="text-white hover:text-primary transition text-base font-medium drop-shadow-lg"
           >
-            Spa
+            Packages
           </Link>
           <a
             href="tel:+256700801524"

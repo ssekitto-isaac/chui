@@ -5,20 +5,20 @@ import Image from 'next/image'
 export default function Accommodations() {
   const accommodations = [
     {
-      name: 'Deluxe Banda',
+      name: 'Single Room',
       description: 'Experience comfort and elegance in our spacious deluxe rooms with stunning river views and modern amenities.',
       features: ['River View', 'En-suite Bathroom', 'Private Veranda', 'WiFi'],
       image: '/banda-deluxe.jpg',
     },
     {
-      name: 'Exclusive Suite',
+      name: 'Double/Twin',
       description: 'Our premium offering features luxury furnishings, personalized service, and exclusive access to private facilities.',
       features: ['Premium Furnishings', 'Private Deck', 'Personalized Service', 'Gourmet Dining'],
       image: '/banda-suite.jpg',
     },
     {
-      name: 'Standard Banda',
-      description: 'Perfect for those seeking comfort and authenticity, our standard bandas offer cozy accommodations with traditional charm.',
+      name: 'Triple Room',
+      description: 'Perfect for those seeking comfort and authenticity, our standard rooms offer cozy accommodations with traditional charm.',
       features: ['Comfortable Beds', 'Shared Facilities', 'River Access', 'Natural Ventilation'],
       image: '/banda-standard.jpg',
     },
@@ -53,7 +53,7 @@ export default function Accommodations() {
                     {accommodation.name}
                   </h3>
                   <button className="px-6 py-2 bg-white text-foreground font-bold rounded-full hover:bg-primary hover:text-white transition inline-block">
-                    EXPLORE MORE
+                    Book Now
                   </button>
                 </div>
               </div>
