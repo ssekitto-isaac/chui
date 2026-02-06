@@ -1,15 +1,40 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, Phone } from "lucide-react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpaque, setIsOpaque] = useState(false);
+
+  useEffect(() => {
+    const mql = window.matchMedia("(min-width: 768px)");
+    const check = () => {
+      if (!mql.matches) {
+        setIsOpaque(false);
+        return;
+      }
+      setIsOpaque(window.scrollY > 20);
+    };
+
+    window.addEventListener("scroll", check, { passive: true });
+    window.addEventListener("resize", check);
+    check();
+
+    return () => {
+      window.removeEventListener("scroll", check);
+      window.removeEventListener("resize", check);
+    };
+  }, []);
 
   return (
-    <header className="fixed top-0 w-full bg-transparent z-50 transition-all duration-300">
+    <header
+      className={`fixed top-0 w-full z-50 h-10 md:h-30 transition-all duration-300 ${
+        isOpaque ? "bg-black/50 backdrop-blur-sm" : "bg-transparent"
+      }`}
+    >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <div className="relative w-30 h-30 md:w-36 md:h-36">

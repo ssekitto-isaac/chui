@@ -54,11 +54,11 @@ export default function Footer() {
                   Activities
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#spa" className="text-foreground/70 hover:text-primary transition">
                   Spa
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#" className="text-foreground/70 hover:text-primary transition">
                   Book Now

@@ -39,7 +39,7 @@ export default function AboutUsSection() {
           <div className="flex flex-col gap-6">
             <div className="relative w-full h-80 md:h-[420px]">
               <Image
-                src="/activity-accommodation.jpg"
+                src="/activity-accomodation.jpeg"
                 alt="Chui Safari Camp Mission and Vision"
                 fill
                 className="object-cover rounded-lg"

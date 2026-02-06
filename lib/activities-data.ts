@@ -3,7 +3,7 @@ export const activitiesData = [
     id: 1,
     name: 'Accommodation and Meals',
     shortName: 'Accommodation',
-    image: '/activity-accommodation.jpg',
+    image: '/activity-accomodation.jpeg',
     description: '"Home is not a place... it\'s a feeling," and our goal is to make you feel it. Our commitment: to nourish your body with delicious meals and your spirit with a welcoming space, making every moment feel like coming home. Where comfortable beds meet comforting food, creating memories that taste and feel like love.',
     longDescription: 'Experience the ultimate comfort at Chui Safari Camp, where every detail is designed to make you feel at home in the heart of the wild. Our accommodations blend rustic charm with modern amenities, offering plush beds, serene views, and a tranquil atmosphere. Wake up to the sounds of nature, enjoy hearty breakfasts, and savor gourmet meals crafted from fresh, local ingredients. Whether you are relaxing after a day of adventure or sharing stories by the fire, our camp is a sanctuary of warmth and hospitality. Let us nourish your body and soul, making every stay a cherished memory.',
   },
