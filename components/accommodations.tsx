@@ -52,9 +52,11 @@ export default function Accommodations() {
                   <h3 className="text-3xl md:text-4xl font-playfair font-bold text-white mb-4 text-balance">
                     {accommodation.name}
                   </h3>
+                  <a href="https://wa.me/256700801524" >
                   <button className="px-6 py-2 bg-white text-foreground font-bold rounded-full hover:bg-primary hover:text-white transition inline-block">
                     Book Now
                   </button>
+                  </a>
                 </div>
               </div>
             </div>

@@ -1,6 +1,15 @@
-'use client'
+"use client";
 
-import { Mail, Phone, MapPin, Facebook, Twitter, Youtube, Instagram, Linkedin } from 'lucide-react'
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Facebook,
+  Twitter,
+  Youtube,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -9,9 +18,12 @@ export default function Footer() {
       <div className="bg-primary/10 border-b border-border py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-md mx-auto">
-            <h3 className="text-xl font-playfair font-bold text-foreground mb-4">Stay Connected</h3>
+            <h3 className="text-xl font-playfair font-bold text-foreground mb-4">
+              Stay Connected
+            </h3>
             <p className="text-foreground/70 mb-4 text-sm">
-              Subscribe to our newsletter with stories from our latest adventures and travel tips
+              Subscribe to our newsletter with stories from our latest
+              adventures and travel tips
             </p>
             <div className="flex gap-2">
               <input
@@ -36,7 +48,9 @@ export default function Footer() {
               Chui Safari Camp
             </h4>
             <p className="text-foreground/70 text-sm leading-relaxed">
-              Experience authentic safari luxury in Buliisa, Uganda. Create unforgettable memories with wildlife encounters and world-class hospitality.
+              Experience authentic safari luxury in Buliisa, Uganda. Create
+              unforgettable memories with wildlife encounters and world-class
+              hospitality.
             </p>
           </div>
 
@@ -45,12 +59,18 @@ export default function Footer() {
             <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#accommodations" className="text-foreground/70 hover:text-primary transition">
-                  Bandas
+                <a
+                  href="#accommodations"
+                  className="text-foreground/70 hover:text-primary transition"
+                >
+                  Accomodations
                 </a>
               </li>
               <li>
-                <a href="#activities" className="text-foreground/70 hover:text-primary transition">
+                <a
+                  href="#activities"
+                  className="text-foreground/70 hover:text-primary transition"
+                >
                   Activities
                 </a>
               </li>
@@ -60,7 +80,10 @@ export default function Footer() {
                 </a>
               </li> */}
               <li>
-                <a href="#" className="text-foreground/70 hover:text-primary transition">
+                <a
+                  href="https://wa.me/256700801524"
+                  className="text-foreground/70 hover:text-primary transition"
+                >
                   Book Now
                 </a>
               </li>
@@ -72,22 +95,34 @@ export default function Footer() {
             <h4 className="font-semibold text-foreground mb-4">Information</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="text-foreground/70 hover:text-primary transition">
+                <a
+                  href="#"
+                  className="text-foreground/70 hover:text-primary transition"
+                >
                   FAQ
                 </a>
               </li>
               <li>
-                <a href="#" className="text-foreground/70 hover:text-primary transition">
+                <a
+                  href="#"
+                  className="text-foreground/70 hover:text-primary transition"
+                >
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href="#" className="text-foreground/70 hover:text-primary transition">
+                <a
+                  href="#"
+                  className="text-foreground/70 hover:text-primary transition"
+                >
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-foreground/70 hover:text-primary transition">
+                <a
+                  href="#"
+                  className="text-foreground/70 hover:text-primary transition"
+                >
                   Download Profile
                 </a>
               </li>
@@ -110,13 +145,19 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <Mail size={16} className="text-primary mt-1 flex-shrink-0" />
                 <div className="flex flex-col gap-1">
-                  <span className="text-foreground/70">chuisafariugltd@gmail.com</span>
-                  <span className="text-foreground/70">achemonges2001@gmail.com</span>
+                  <span className="text-foreground/70">
+                    chuisafariugltd@gmail.com
+                  </span>
+                  <span className="text-foreground/70">
+                    achemonges2001@gmail.com
+                  </span>
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="text-primary mt-1 flex-shrink-0" />
-                <span className="text-foreground/70">Mubako Village, Avogera Parish, Ngwedo Buliisa, Uganda</span>
+                <span className="text-foreground/70">
+                  Mubako Village, Avogera Parish, Ngwedo Buliisa, Uganda
+                </span>
               </li>
             </ul>
           </div>
@@ -126,19 +167,44 @@ export default function Footer() {
         <div className="border-t border-border pt-8 mb-8">
           <h4 className="font-semibold text-foreground mb-4">Follow Us</h4>
           <div className="flex gap-4">
-            <a href="https://www.facebook.com/chuisafaricamp" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition">
+            <a
+              href="https://www.facebook.com/chuisafaricamp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition"
+            >
               <Facebook size={20} />
             </a>
-            <a href="https://www.twitter.com/chuisafaricamp" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition">
+            <a
+              href="https://www.twitter.com/chuisafaricamp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition"
+            >
               <Twitter size={20} />
             </a>
-            <a href="https://www.youtube.com/chuisafaricamp" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition">
+            <a
+              href="https://www.youtube.com/chuisafaricamp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition"
+            >
               <Youtube size={20} />
             </a>
-            <a href="https://www.instagram.com/chuisafaricamp" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition">
+            <a
+              href="https://www.instagram.com/chuisafaricamp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition"
+            >
               <Instagram size={20} />
             </a>
-            <a href="https://www.linkedin.com/company/chuisafaricamp" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition">
+            <a
+              href="https://www.linkedin.com/company/chuisafaricamp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition"
+            >
               <Linkedin size={20} />
             </a>
           </div>
@@ -156,5 +222,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }

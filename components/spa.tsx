@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Spa() {
   return (
@@ -10,17 +10,24 @@ export default function Spa() {
               Buah Brunch
             </h2>
             <p className="text-lg text-foreground/70 mb-6 leading-relaxed">
-              Guests enjoy a luxurious brunch in a stunning natural setting, 
-              surrounded by breathtaking views and the sounds of nature. 
-              The brunch features a curated selection of fresh, locally sourced dishes, offering both comfort and elegance. 
+              Guests enjoy a luxurious brunch in a stunning natural setting,
+              surrounded by breathtaking views and the sounds of nature. The
+              brunch features a curated selection of fresh, locally sourced
+              dishes, offering both comfort and elegance.
             </p>
             <p className="text-foreground/70 mb-6 leading-relaxed">
-              It's not just a meal, it's a celebration of relaxation, connection, and the unique spirit of Chui Safari Camp, 
-              making every moment memorable and every bite a delight.
+              It's not just a meal, it's a celebration of relaxation,
+              connection, and the unique spirit of Chui Safari Camp, making
+              every moment memorable and every bite a delight.
             </p>
-            <button className="px-8 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition font-medium">
+            <a
+              href="https://wa.me/256700801524"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition font-medium inline-block"
+            >
               Book your Spot Now
-            </button>
+            </a>
           </div>
 
           <div className="relative rounded-lg h-96 w-full overflow-hidden">
@@ -34,5 +41,5 @@ export default function Spa() {
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -120,9 +120,11 @@ export default function Header() {
                 <Phone size={18} />
                 <span>+256 700 801 524</span>
               </a>
-              <button className="px-6 py-2 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition w-full text-lg font-semibold">
-                Book Now
-              </button>
+              <a href="https://wa.me/256700801524" >
+                <button className="px-6 py-2 bg-primary text-primary-foreground rounded-full hover:bg-primary/90 transition w-full text-lg font-semibold">
+                  Book Now
+                </button>
+              </a>
             </div>
           </div>
         )}
